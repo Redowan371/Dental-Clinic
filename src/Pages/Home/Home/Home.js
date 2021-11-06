@@ -1,9 +1,16 @@
 import React from "react";
+import Navigation from "../../Shared/Navigation/Navigation";
+import AppoinmentBanner from "../AppoinmentBanner/AppoinmentBanner";
+import Banner from "../Banner/Banner";
+import Services from "../Services/Services";
 
 const Home = () => {
   return (
     <div>
-      <h1>This is Home...</h1>
+      <Navigation />
+      <Banner />
+      <Services />
+      <AppoinmentBanner />
     </div>
   );
 };
